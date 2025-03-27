@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Favorite Books</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        section {
+            padding: 20px;
+            margin: 20px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        section h2 {
+            color: #333;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .book-list {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        .book {
+            background-color: #f4f4f4;
+            width: 30%;
+            margin: 10px;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .book img {
+            max-width: 100%;
+            border-radius: 8px;
+        }
+
+        .book h3 {
+            color: #333;
+        }
+
+        .book p {
+            font-size: 1.1em;
+            color: #555;
+        }
+
+        .book a {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px 15px;
+            background-color: #333;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .book a:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>My Favorite Books</h1>
+    </header>
+
+    <!-- Main Content Section -->
+    <section>
+        <h2>Books That I Love</h2>
+        <p>Here are some of my all-time favorite books that I would recommend to anyone!</p>
+
+        <div class="book-list">
+            <!-- Book 1 -->
+            <div class="book">
+                <img src="https://images-na.ssl-images-amazon.com/images/I/41mfwDiBZBL._SX331_BO1,204,203,200_.jpg" alt="1984 Book">
+                <h3>1984 by George Orwell</h3>
+                <p>A dystopian novel about totalitarian regime surveillance and control.</p>
+                <a href="https://www.amazon.com/1984-Signet-Classics-George-Orwell/dp/0451524934" target="_blank">Buy on Amazon</a>
+            </div>
+
+            <!-- Book 2 -->
+            <div class="book">
+                <img src="https://m.media-amazon.com/images/I/91TZMe7uQ1L.jpg" alt="To Kill a Mockingbird">
+                <h3>To Kill a Mockingbird by Harper Lee</h3>
+                <p>A powerful story about racial injustice and the loss of innocence in the deep South.</p>
+                <a href="https://www.amazon.com/Kill-Mockingbird-Harper-Lee/dp/0061120081" target="_blank">Buy on Amazon</a>
+            </div>
+
+            <!-- Book 3 -->
+            <div class="book">
+                <img src="https://images-na.ssl-images-amazon.com/images/I/81WcnNQ-TBL.jpg" alt="The Catcher in the Rye">
+                <h3>The Catcher in the Rye by J.D. Salinger</h3>
+                <p>The story of a disillusioned teenager's journey through New York City.</p>
+                <a href="https://www.amazon.com/Catcher-Rye-J-D-Salinger/dp/0316769487" target="_blank">Buy on Amazon</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2025 My Favorite Books | All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>
